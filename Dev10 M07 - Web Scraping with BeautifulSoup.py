@@ -8,3 +8,5 @@ def getHTML(url):
 html = getHTML("http://books.toscrape.com/")
 
 soup = BeautifulSoup(html,'html.parser')
+
+table = soup.find()
